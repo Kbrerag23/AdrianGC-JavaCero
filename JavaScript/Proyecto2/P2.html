@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Generador de Excusas Divertidas</title>
+  <link rel="stylesheet" href="P2.CSS">
+</head>
+<body>
+
+  <h1>Generador de Excusas Divertidas</h1>
+
+  <button onclick="generarExcusa()">Generar Excusa</button>
+  <div id="excusa"></div>
+
+  <h2>Agregar nuevas palabras</h2>
+  <div class="inputs">
+    <input type="text" id="nuevoSujeto" placeholder="Nuevo sujeto">
+    <button onclick="agregarPalabra('sujeto')">Agregar</button><br>
+
+    <input type="text" id="nuevaAccion" placeholder="Nueva acción">
+    <button onclick="agregarPalabra('accion')">Agregar</button><br>
+
+    <input type="text" id="nuevoObjeto" placeholder="Nuevo objeto">
+    <button onclick="agregarPalabra('objeto')">Agregar</button>
+  </div>
+
+  <script src="P2.js"></script>
+</body>
+</html>

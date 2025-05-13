@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  background-color: #506b83;
+  text-align: center;
+  color: white;
+}
+
+h1{
+     border-radius: 10px;
+    border-color: rgb(7, 170, 170);
+    color: white;
+    background-color: #0c243a;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  font-size: 1em;
+  padding: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button {
+    border-radius: 10px;
+    border-color: rgb(7, 170, 170);
+    color: white;
+    background-color: #0c243a;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 2em;
+}
